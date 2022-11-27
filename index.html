@@ -68,7 +68,7 @@
             animation: animate 1.5s infinite;
             border: none;
             font-size: xxx-large;
-            font-family: cursive;
+            font-family: 'Times New Roman', Times, serif;
         }
 
         .audio {
@@ -415,7 +415,9 @@
     <audio src="mp3/m1.mp3" id="myAudio"></audio>
     <button class="btn" onClick="playMyAudio()">I Love You</button>
     <script>
-        function playMyAudio() {
+
+        function playMyAudio(a) {
+
             document.getElementById("myAudio").play();
         }
     </script>
