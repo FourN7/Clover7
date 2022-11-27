@@ -14,14 +14,17 @@
     <style>
         html,
         body {
-            height: 100%;
-            padding: 0;
-            margin: 0;
-            background: rgb(9, 4, 4);
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 100%;
+
+            background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+            background-size: 300% 300%;
+            animation: color 12s ease-in-out infinite;
         }
+
+
 
         .name {
             text-align: center;
@@ -154,9 +157,12 @@
 
 <body>
 
+
     <div class="box">
         <canvas id="pinkboard"></canvas>
     </div>
+
+
 
     <script>
         /*
@@ -423,6 +429,7 @@
     </script>
     <h3 class="date"></h3>
     <img src="Image/nu-1.png" class="rounded2" alt="Cinque Terre">
+
 
 
 </body>
