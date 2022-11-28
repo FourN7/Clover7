@@ -66,7 +66,7 @@
             -webkit-background-clip: text;
             background-clip: text;
             font-size: 30px;
-            background-image: linear-gradient(to left, #b31815, #ecec08);
+            background-image: linear-gradient(to left, #b31815, #313102);
             font-style: italic;
             animation: animate 1.5s infinite;
             border: none;
@@ -84,6 +84,53 @@
 
         .rounded1 {
             margin-left: 150px;
+            position: relative;
+            animation-name: example1;
+            animation-duration: 4s;
+            animation-iteration-count: 100;
+        }
+
+        @keyframes example1 {
+            0% {
+
+                left: 0px;
+                top: 0px;
+            }
+
+            50% {
+                left: 100px;
+                top: 0px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        .rounded2 {
+            position: relative;
+            animation-name: example2;
+            animation-duration: 4s;
+            animation-iteration-count: 100;
+        }
+
+        @keyframes example2 {
+            0% {
+
+                right: 0px;
+                top: 0px;
+            }
+
+            50% {
+                right: 100px;
+                top: 0px;
+            }
+
+            100% {
+                right: 0px;
+                top: 0px;
+            }
         }
 
         .box {
